@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"/>
+    <title>Personal Web - Yoga</title>
+  </head>
+  <body>
+    <!-- Start Header-->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-center relative">
+          <div>
+            <div class="flex items-center px-4">
+              <button
+                id="menu-bar"
+                name="menu-bar"
+                type="button"
+                class="block absolute right-4 pt-20 z-[1000] lg:hidden"
+              >
+                <span
+                  class="menu-line origin-top-right transition duration-700 ease-in-out"
+                ></span>
+                <span
+                  class="menu-line transition duration-700 ease-in-out"
+                ></span>
+                <span
+                  class="menu-line origin-bottom-right transition duration-700 ease-in-out"
+                ></span>
+              </button>
+
+              <nav id="nav-menu"
+                class="hidden absolute py-3 bg-white shadow-lg rounded-lg max-w-[175px] w-full right-6 top-9 border-2 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:border-none" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                <ul class="block lg:flex">
+                  <li class="group">
+                    <a
+                      href="#home"
+                      class="text-base text-dark md:text-white py-2 mx-8 flex group-hover:text-primary"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="group">
+                    <a
+                      href="#about"
+                      class="text-base text-dark md:text-white py-2 mx-8 flex group-hover:text-primary"
+                      >About</a
+                    >
+                  </li>
+                  <li class="group">
+                    <a
+                      href="#contacts"
+                      class="text-base text-dark md:text-white py-2 mx-8 flex group-hover:text-primary"
+                      >Contacts</a
+                    >
+                  </li>
+                  <li class="group">
+                    <a
+                      href="#portfolio"
+                      class="text-base text-dark md:text-white py-2 mx-8 flex group-hover:text-primary"
+                      >Portfolio</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header-->
+
+    <!-- Start Hero-->
+    <section id="home" class="bg-hero-img bg-cover bg-no-repeat">
+      <div class="w-full h-full bg-gray-900 bg-opacity-60 py-10">
+        <div class="flex flex-col items-center justify-center h-screen">
+          <h1 class="text-white font-bold text-5xl md:text-6xl" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="100">
+            I'm Yoga Agatha
+          </h1>
+          <h1 class="text-pale font-bold text-lg mt-2 shadow-black md:text-xl" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+            Back-end Web Developer
+          </h1>
+          <div class="flex items-center justify-center gap-8 mt-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="100">
+            <a href=""
+              class="flex items-center justify-center text-xl w-12 h-12 bg-white rounded-full hover:text-sky-500 hover:bg-slate-700/50 transition-all duration-700 ease-in-out">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/gathacom"
+              class="flex items-center justify-center text-xl w-12 h-12 bg-white rounded-full hover:text-sky-500 hover:bg-slate-700/50 transition-all duration-700 ease-in-out"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href=""
+              class="flex items-center justify-center text-xl w-12 h-12 bg-white rounded-full hover:text-sky-500 hover:bg-slate-700/50 transition-all duration-700 ease-in-out"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero-->
+
+    <!-- Start About-->
+    <section id="about" class="pt-36 pb-32 md:h-screen">
+      <div class="container transition-all duration-700 ease-in-out">
+        <div class="flex flex-wrap flex-col md:flex-row">
+          <div class="mt-5 mb-10 md:w-1/2">
+            <div class="flex items-center justify-center" >
+              <div class="max-w-6xl mx-auto px-6" data-aos="fade-right"
+              data-aos-easing="linear" data-aos-duration="1000">
+                <div class="flex [&:hover>div]:w-11 [&>div:hover]:w-52">
+                  <div class="group relative shadow-lg shadow-black/30 h-60 w-52 hover:w-52 cursor-pointer overflow-hidden transition-all duration-300 ease-in-out rounded-l-lg">
+                    <img
+                      src="../src/images/profile.jpg"
+                      alt=""
+                      class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"
+                    />
+                    <div
+                      class="invisible absolute inset-0 bg-gradient-to-b from-primary/20 to-black group-hover:visible"
+                    ></div>
+                  </div>
+                  <div
+                    class="group relative shadow-lg shadow-black/30 h-60 w-8 hover:w-52 cursor-pointer overflow-hidden transition-all duration-300 ease-in-out"
+                  >
+                    <img
+                      src="../src/images/profile-2.jpeg"
+                      alt=""
+                      class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"
+                    />
+                    <div
+                      class="invisible absolute inset-0 bg-gradient-to-b from-primary/20 to-black group-hover:visible"
+                    ></div>
+                  </div>
+                  <div
+                    class="group relative shadow-lg shadow-black/30 h-60 w-8 hover:w-52 cursor-pointer overflow-hidden transition-all duration-300 ease-in-out"
+                  >
+                    <img
+                      src="../src/images/profile-3.jpeg"
+                      alt=""
+                      class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"
+                    />
+                    <div
+                      class="invisible absolute inset-0 bg-gradient-to-b from-primary/20 to-black group-hover:visible"
+                    ></div>
+                  </div>
+                  <div
+                    class="group relative shadow-lg shadow-black/30 h-60 w-8 hover:w-52 cursor-pointer overflow-hidden transition-all duration-300 ease-in-out rounded-r-lg"
+                  >
+                    <img
+                      src="../src/images/profile-4.jpeg"
+                      alt=""
+                      class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"
+                    />
+                    <div
+                      class="invisible absolute inset-0 bg-gradient-to-b from-primary/20 to-black group-hover:visible"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-5 mb-10 md:w-1/2 lg:px-10">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+              About Me
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+              Just an ordinary people trying to be good in life
+            </h2>
+            <p class="font-medium text-base text-pale max-w-lg" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+              I'm a student of a university in Jogja I hope I can be better than
+              Sandhika Galih or Dea Afrizal. Wanna make a lot of money, so I can
+              buy anything. Besides that, I also like playing basketball
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About-->
+
+    <!-- Tech Stack-->
+    <section id="tech-stack" class="pt-2 h-screen overflow-hidden mb-10">
+      <div class="flex flex-col-reverse md:flex-row container transition-all duration-700 ease-in-out">
+        <div class="md:w-[50%] h-[100%] md:h-96 bg-white border border-gray-200 rounded-xl shadow dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up"
+        data-aos-easing="linear" data-aos-duration="1000">
+          <ul class="flex flex-wrap justify-center align-items-center  text-sm font-medium text-center text-gray-500 border-b border-gray-200 rounded-t-lg bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:bg-gray-800" id="defaultTab" data-tabs-toggle="#defaultTabContent" role="tablist">
+              <li class="me-2 font-bold text-base">
+                  <button id="tech-tab" data-tabs-target="#tech" type="button" role="tab" aria-controls="tech" aria-selected="true" class="inline-block p-4 text-blue-600 hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-blue-500">Tech Stack</button>
+              </li>
+              <li class="me-2 font-bold text-base">
+                  <button id="tools-tab" data-tabs-target="#tools" type="button" role="tab" aria-controls="tools" aria-selected="true" class="inline-block p-4 text-blue-600 hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-blue-500">Tools</button>
+              </li>
+          </ul>
+          <div id="defaultTabContent">
+              <div class="hidden p-4 bg-dark rounded-lg md:p-8 dark:bg-gray-800" id="tech" role="tabpanel" aria-labelledby="tech-tab">
+                <div class="grid gap-2 grid-cols-3 md:grid-cols-5">
+                <div class="flex flex-col items-center justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-orange-500 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/html.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">HTML</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-blue-600 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/css.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">CSS</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-yellow-500 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/javascript.svg" class="rounded-sm" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">JavaScript</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-blue-600 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/cpp.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">CPP</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-cyan-800 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/java.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">Java</h4>
+                  <p class="text-sm">Novice</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-indigo-800-900 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/php.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">PHP</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-green-700 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/nodejs.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">NodeJs</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-gray-900 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/express.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">ExpressJs</h4>
+                  <p class="text-sm">Competent</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-indigo-600 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/adonisjs.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">AdonisJs</h4>
+                  <p class="text-sm">Novice</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-emerald-500 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/ejs.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">EJS</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-sky-700 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/tailwind.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">Tailwind</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-violet-800 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/bootstrap.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">Bootstrap</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-blue-600 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/mysql.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">MySql</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-green-700 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/mongo.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">MongoDB</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+              </div>
+              </div>
+              <div class="hidden p-4 bg-dark rounded-lg md:p-8 dark:bg-gray-800" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+                <div class="grid gap-2 grid-cols-3 md:grid-cols-5">
+                <div class="flex flex-col items-center justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-sky transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/vscode.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">VS Code</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-slate-900 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/github.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">GitHub</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-[#AF4F32] transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/git.svg" class="rounded-sm" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">Git</h4>
+                  <p class="text-sm">Novice</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-orange-500 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/xampp.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">XAMPP</h4>
+                  <p class="text-sm">Advance</p>
+                </div>
+                <div class="flex flex-col items-center  justify-center mb-3 text-white hover:cursor-default">
+                  <div class="flex items-center justify-center bg-white w-12 h-12 mb-1 rounded-full hover:bg-slate-600/50 hover:ring-2 hover:ring-blue-600 transition-all duration-700 ease-in-out">
+                    <img src="/src/svg/intellij.svg" alt="">
+                  </div>
+                  <h4 class="text-sm mb-1">Intellij IDEA  </h4>
+                  <p class="text-sm">Novice</p>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+        <div class="w-[100%] md:w-[50%] flex flex-col justify-center items-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+          <div class="w-[100%] md:w-[50%]">
+          <h4 class="text-3xl font-extrabold mb-4 text-center md:text-right"> My <span class="text-transparent bg-clip-text bg-gradient-to-r to-secondary from-blue-600">Skills</span>.</h4>
+          <h5 class="font-bold text-2xl text-dark text-center md:text-right mb-1"> Tech Stacks <span>& Tools</span></h5>
+          <p class="text-lg font-normal text-pale text-center md:text-right mb-3">Here is some of tech stacks and tools that i`ve learned and experience</p>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Tech Stack-->
+    <!-- Contact Hero-->
+    <section id="contacts" class="bg-dark pt-24 pb-32 px-6 md:h-screen">
+      <div class="container">
+        <div class="w-full">
+          <h4 class="font-bold text-white text-2xl mb-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+            Lets Talk <span class="text-5xl text-primary">.</span>
+          </h4>
+          <div class="flex flex-wrap flex-col lg:flex-row">
+            <div class="w-full lg:w-1/2 px-5" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+              <form action="/message" method="POST" class="mb-6">
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+                  <input type="text" name="message[name]" placeholder="Your Name"
+                    class="w-full text-white p-3 rounded mb-3 bg-dark border-b-4 outline-none focus:border-primary"
+                    required/>
+                  <input type="email" name="message[email]" placeholder="Email Address"
+                    class="w-full text-white p-3 rounded mb-3 bg-dark border-b-4 outline-none focus:border-primary"
+                    required/>
+                </div>
+                <input type="text" name="message[phone]" placeholder="Phone Number"
+                  class="w-full text-white p-3 rounded mb-3 bg-dark border-b-4 outline-none focus:border-primary"
+                  required/>
+                <textarea name="message[content]"
+                  rows="5"
+                  placeholder="Write Your Massage"
+                  class="w-full text-white p-3 rounded mb-3 bg-dark border-b-4 outline-none focus:border-primary"
+                  required></textarea>
+                <button type="submit"
+                  class="w-1/4 text-white p-2 rounded mb-3 bg-dark border-b-4 hover:border-primary hover:text-primary">
+                  Send
+                </button>
+              </form>
+              <hr class="mb-6 lg:hidden" />
+            </div>
+            <div class="w-full lg:w-1/2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+              <div class="px-5">
+                <h5 class="font-bold text-lg text-primary">
+                  Have an Enquiry ?
+                </h5>
+                <p class="mt-5 text-white max-w-md">
+                  Whether you have a question about a future project‌ or just
+                  wanna touching base‌,‌ you can email me or give me a call by
+                  using the links below‌.‌
+                </p>
+                <div class="flex flex-col">
+                  <div class="flex flex-row items-center mt-5 text-white">
+                    <div
+                      class="flex h-8 w-8 text-xl justify-center items-center p-2 mr-3 bg-dark rounded-full border-2"
+                    >
+                      <i class="bx bxl-whatsapp"></i>
+                    </div>
+                    <p>+62 882 - 6314 - 5768</p>
+                  </div>
+                  <div class="flex flex-row items-center mt-5 text-white">
+                    <div
+                      class="flex h-8 w-8 text-xl justify-center items-center p-2 mr-3 bg-dark rounded-full border-2"
+                    >
+                      <i class="bx bxl-gmail"></i>
+                    </div>
+                    <p>yogapsb000@gmail.com</p>
+                  </div>
+                </div>
+                <div class="mt-5">
+                  <h5 class="font-bold text-lg text-primary">My Location</h5>
+                  <p class="mt-5 text-white">
+                    Depok, Sleman, Special Region of Yogyakarta
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact-->
+
+    <!--Portfolio Sect-->
+    <section id="portfolio" class="pt-24 pb-32 bg-slate-200">
+      <div class="container">
+        <div class="w-full-px-4">
+          <div class="max-w-xl mx-auto text-center mb-10" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="100">
+            <h4 class="font-semibold text-xl text-primary">Portfolio</h4>
+            <h2 class="font-bold text-2xl text-dark">Created Project</h2>
+            <p class="font-normal text-base text-slate-600">
+              Here's my project that i made since i learned about WEB
+            </p>
+          </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 md:w-1/2" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="../src/images/project-1.png"
+                alt="Gustoro Coffee"
+                width="w-full"/>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Gustoro Coffee Shop Website
+            </h3>
+            <p class="font-medium text-base text-pale">
+              This website is a website that contains a landing page and can
+              also be used to order coffee and place reservations. For admins,
+              it can also be used to manage coffee stock supplies.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="../src/images/project-2.jpg"
+                alt="Gustoro Coffee"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Score Board
+            </h3>
+            <p class="font-medium text-base text-pale">
+              This is my first project when learned about Basic of JavaScript.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="../src/images/project-1.png"
+                alt="Gustoro Coffee"
+                width="w-full"/>
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Gustoro Coffee Shop Website
+            </h3>
+            <p class="font-medium text-base text-pale">
+              This website is a website that contains a landing page and can
+              also be used to order coffee and place reservations. For admins,
+              it can also be used to manage coffee stock supplies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Portfolio Sect End-->
+    
+    
+     <!-- -->
+    <!-- <section id="portfolio" class="pt-24 pb-32 bg-dark">
+      <div class="container">
+        
+      </div>
+    </section> -->
+        <!--  -->
+
+    <!-- Start Footer-->
+    <footer class="bg-dark py-12 px-6">
+      <div class="flex justify-center items-center">
+        <h4 class="font-normal text-base text-white">
+          Copyright © 2023 - Yoga Agatha Pasaribu
+        </h4>
+      </div>
+    </footer>
+    <!-- End Footer-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
